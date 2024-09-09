@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P&K</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts 1 -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
+</head>
+<body>
+    <header>
+        <h1>Pedro & Katila</h1>
+    </header>
+    
+    <section class="content">
+        <p class="romantic-text">Desde o momento em que nossos caminhos se cruzaram, soube que havia encontrado a pessoa com quem desejo passar o resto da minha vida. Seu amor ilumina cada dia meu e faz com que tudo ao meu redor tenha um brilho especial. Te amo mais do que palavras podem expressar.</p>
+        
+        <div class="photo-gallery">
+            <!-- Substitua os caminhos das imagens pelos caminhos reais das suas fotos -->
+            <img src="/images/f1.jpg" alt="Foto 1" class="photo" onclick="openModal(this)">
+            <img src="/images/f2.jpg" alt="Foto 2" class="photo" onclick="openModal(this)">
+            <img src="/images/f3.jpg" alt="Foto 3" class="photo" onclick="openModal(this)">
+            <img src="/images/f4.jpg" alt="Foto 4" class="photo" onclick="openModal(this)">
+            <img src="/images/f5.jpg" alt="Foto 5" class="photo" onclick="openModal(this)">
+            <img src="/images/f6.jpg" alt="Foto 6" class="photo" onclick="openModal(this)">
+            <img src="/images/f7.jpg" alt="Foto 7" class="photo" onclick="openModal(this)">
+            <img src="/images/f8.jpg" alt="Foto 8" class="photo" onclick="openModal(this)">
+            <img src="/images/f9.jpg" alt="Foto 9" class="photo" onclick="openModal(this)">
+            <img src="/images/f10.jpg" alt="Foto 10" class="photo" onclick="openModal(this)">
+            <img src="/images/f11.jpg" alt="Foto 11" class="photo" onclick="openModal(this)">
+            <img src="/images/f12.jpg" alt="Foto 12" class="photo" onclick="openModal(this)">
+            
+            <!-- Adicione mais imagens conforme necessário -->
+        </div>
+    </section>
+    
+    <footer>
+        <p>Nosso amor é eterno, inabalável e cresce a cada dia. Juntos para sempre, em cada passo, em cada sonho. Você é minha razão de viver e meu coração pertence a você eternamente.</p>
+    </footer>
+    
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImg">
+    </div>
+    
+    <script src="script.js"></script> 
+</body>
+</html>
